@@ -215,15 +215,6 @@ def run():
     save_model(final_model, imputer)
     print(f"\nAll results saved to {RESULTS_DIR}/")
 
-def save_model(model, imputer):
-    """Save model + imputer for inference script."""
-    import pickle
-    payload = {"model": model, "imputer": imputer}
-    path = RESULTS_DIR / "xgb_model.pkl"
-    with open(path, "wb") as f:
-        pickle.dump(payload, f)
-    print(f"Saved → {path}")
-
 
 if __name__ == "__main__":
     run()
