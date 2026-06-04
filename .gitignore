@@ -1,0 +1,13 @@
+data/raw/
+data/processed/*.parquet
+data/processed/*.csv
+__pycache__/
+*.pyc
+.env
+.DS_Store
+results/*.png
+results/*.pdf
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/

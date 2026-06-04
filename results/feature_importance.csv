@@ -1,0 +1,13 @@
+feature,mean_abs_shap,rank
+Age (yrs),1.4694669,1
+RDW %,0.6602176,2
+MCV (fL),0.499759,3
+Lymphocyte %,0.36895764,4
+Creatinine (mg/dL),0.33761033,5
+CRP (mg/dL),0.30549017,6
+WBC (1000/µL),0.2866715,7
+ALP (U/L),0.26522467,8
+Albumin (g/dL),0.26517984,9
+Glucose (mg/dL),0.26308972,10
+Gender,0.24220659,11
+Race/Ethnicity,0.1264569,12
